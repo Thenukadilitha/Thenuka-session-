@@ -1,0 +1,23 @@
+
+{
+    "name": "Thenuka-session-",
+    "description": "Web Session Generator",
+    "logo": "https://raw.githubusercontent.com/Thenukadilitha/Thenuka-bot/refs/heads/main/images/IMG-20251020-WA0002.jpg",
+    "repository": "https://github.com/Thenukadilitha/Thenuka-session-",
+    "keywords": ["Thenuka-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
